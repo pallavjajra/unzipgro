@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header-icons">
+                <a class="mob-call-svg" href="tel:+91 7610812939">
+
+                    <svg width="32" height="31" viewBox="0 0 32 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M25.3079 5.8909C22.8015 3.47696 19.35 1.9836 15.5268 1.9836C11.7036 1.9836 8.25204 3.47696 5.74571 5.8909C3.23937 8.30485 1.68884 11.6394 1.68884 15.3114C1.68884 18.9937 3.23937 22.318 5.74571 24.7319C8.25204 27.1459 11.7036 28.6392 15.5268 28.6392C19.35 28.6392 22.8015 27.1459 25.3079 24.7319C27.8142 22.318 29.3648 18.9937 29.3648 15.3114C29.3541 11.6394 27.8036 8.30485 25.3079 5.8909ZM15.5162 0.387939C19.7961 0.387939 23.6724 2.0552 26.4761 4.75554C29.2798 7.45587 31.0109 11.1893 31.0109 15.3114C31.0109 19.4335 29.2798 23.1669 26.4761 25.8673C23.6724 28.5676 19.7961 30.2349 15.5162 30.2349C11.2363 30.2349 7.35996 28.5676 4.55626 25.8673C1.75256 23.1669 0.0214844 19.4335 0.0214844 15.3114C0.0214844 11.1893 1.75256 7.45587 4.55626 4.75554C7.37058 2.0552 11.2363 0.387939 15.5162 0.387939Z"
+                            fill="#FFC600"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M12.1494 14.0944C13.0628 13.1534 13.5194 12.6829 13.5194 12.6829C12.7973 10.3201 12.4362 9.1438 12.4362 9.1438C11.8945 8.929 11.3848 8.8574 10.8963 8.94946C4.00383 12.7238 16.9285 25.5504 21.8562 20.61C22.0686 19.6895 22.1536 19.1371 22.1005 18.953C19.9446 17.7563 18.8719 17.1528 18.8719 17.1528C17.7356 18.2472 17.1621 18.7893 17.1621 18.7893C15.1549 18.2268 13.4876 16.672 12.1494 14.0944Z"
+                            fill="#FFC600"></path>
+                    </svg>
+                </a>
+                <a href="https://web.whatsapp.com/" target="_blank">
+                    <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M25.6906 4.91964C22.857 2.14373 19.0789 0.601562 15.0586 0.601562C6.77577 0.601562 0.0429688 7.19731 0.0429688 15.3115C0.0429688 17.8027 0.672655 20.2465 1.90781 22.4055L0.624218 27.0083C0.406249 27.7438 0.624218 28.503 1.18125 29.0487C1.73828 29.5944 2.51328 29.8079 3.26406 29.6181L8.15624 28.3607C10.2875 29.452 12.6609 30.0215 15.0828 30.0215C23.3656 30.0215 30.0984 23.4257 30.0984 15.3115C30.0742 11.3968 28.5242 7.69555 25.6906 4.91964ZM15.0586 28.5979C12.8062 28.5979 10.5539 28.0285 8.56796 26.9846C8.47108 26.9371 8.34999 26.8897 8.22889 26.8897C8.15624 26.8897 8.1078 26.8897 8.03514 26.9134L2.87656 28.242C2.51328 28.3369 2.27109 28.1471 2.17422 28.0522C2.07734 27.9573 1.88359 27.7201 1.98047 27.3642L3.33671 22.4767C3.38515 22.2869 3.36093 22.0971 3.26406 21.931C2.10156 19.938 1.49609 17.6366 1.49609 15.3115C1.49609 7.98026 7.57499 2.02511 15.0586 2.02511C18.6914 2.02511 22.1062 3.4012 24.6492 5.91612C27.2164 8.43105 28.6453 11.7764 28.621 15.3115C28.621 22.6428 22.5422 28.5979 15.0586 28.5979Z"
+                            fill="#15BB53"></path>
+                        <path
+                            d="M22.0578 20.3177C21.7671 21.1244 20.314 21.9311 19.6359 21.9785C18.982 22.026 18.3765 22.2632 15.3492 21.1007C11.7164 19.7009 9.41562 16.0471 9.24609 15.8098C9.07656 15.5726 7.79297 13.9118 7.79297 12.1798C7.79297 10.4478 8.71328 9.61742 9.05234 9.26154C9.3914 8.90565 9.75468 8.83447 9.99687 8.83447C10.2391 8.83447 10.4812 8.83447 10.675 8.83447C10.9414 8.83447 11.2078 8.8582 11.4742 9.42762C11.789 10.1157 12.4914 11.8476 12.564 12.0137C12.6609 12.1798 12.7094 12.3933 12.5883 12.6306C12.4672 12.8678 12.4187 13.0102 12.225 13.2237C12.0555 13.4373 11.8375 13.6745 11.6922 13.8406C11.5226 14.0067 11.3289 14.1965 11.5469 14.5524C11.7648 14.9083 12.4672 16.0471 13.5328 16.9724C14.889 18.1587 16.0515 18.5383 16.4148 18.7044C16.7781 18.8705 16.9718 18.8467 17.1898 18.6095C17.4078 18.3722 18.0859 17.5893 18.3281 17.2334C18.5703 16.8775 18.8125 16.9487 19.1273 17.0673C19.4664 17.1859 21.2101 18.04 21.5734 18.2061C21.9367 18.3722 22.1789 18.4671 22.2515 18.6095C22.3484 18.7993 22.3484 19.4873 22.0578 20.3177Z"
+                            fill="#15BB53"></path>
+                    </svg>
+                </a>
+                <a href="#" class="shopping-cart-logo">
+                    <img src="./assets/images/shopping bag-img.png" alt="">
+                    <span class="shop-qty-number" id="cart-item-qty">0</span>
+                </a>
+                <a><span class="nav-link mob-view-right-errow">
+                        <svg width="22" height="19" viewBox="0 0 11 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 2.71429L6.875 9.5L0 16.2857L1.375 19L11 9.5L1.375 0L0 2.71429Z" fill="#FFD957">
+                            </path>
+                        </svg>
+                    </span></a>
+            </div>
+            <div class="logo">
+                <a class="logo-icon-head" href="./homepage.html"><img src="./assets/images/Unzipgrowth logo.png"
+                        alt="Logo"></a>
+            </div>
+            <div class="overlay" id="overlay">
+                <nav class="overlay-menu">
+                    <ul>
+                        <div id="overlay-cross">
+
+                        </div>
+                        <li class="logo-menu"><a href="./homepage.html"><img src="./assets/images/Unzipgrowth logo.png"
+                                    alt=""></a>
+                            <div class="connn">
+                                <div class="connn-top"></div>
+                                <div class="connn-bottom"></div>
+                            </div>
+                        </li>
+                        <li class="nav-items"><a class="nav-link" href="./who-we-are.html">Who
+                                we
+                                are?</a></li>
+                        <li class="nav-items"><a class="nav-link" href="./What_we_do.html">What we
+                                do?</a></li>
+                        <li class="nav-items"><a class="nav-link" href="./How we do it.html">How we do
+                                it? </a></li>
+                        <li class="nav-items nav-items-arrow set">
+                            <a class="nav-link" href="./what-have-we-done.html">What have
+                                we done?</a>
+
+                        </li>
+
+                        <li class="nav-items nav-items-arrow set">
+                            <a class="nav-link" href="./What-do-we-offer.html">What do we
+                                Offer?</a>
+                        </li>
+
+
+                        <li class="nav-items"><a href="#" class="get-started">Get started</a></li>
+                        <li class="nav-items">
+                            <ul class="icon">
+                                <li class="nav-item"><a href="tel:+91 7610812939">
+
+                                        <svg width="32" height="31" viewBox="0 0 32 31" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M25.3079 5.8909C22.8015 3.47696 19.35 1.9836 15.5268 1.9836C11.7036 1.9836 8.25204 3.47696 5.74571 5.8909C3.23937 8.30485 1.68884 11.6394 1.68884 15.3114C1.68884 18.9937 3.23937 22.318 5.74571 24.7319C8.25204 27.1459 11.7036 28.6392 15.5268 28.6392C19.35 28.6392 22.8015 27.1459 25.3079 24.7319C27.8142 22.318 29.3648 18.9937 29.3648 15.3114C29.3541 11.6394 27.8036 8.30485 25.3079 5.8909ZM15.5162 0.387939C19.7961 0.387939 23.6724 2.0552 26.4761 4.75554C29.2798 7.45587 31.0109 11.1893 31.0109 15.3114C31.0109 19.4335 29.2798 23.1669 26.4761 25.8673C23.6724 28.5676 19.7961 30.2349 15.5162 30.2349C11.2363 30.2349 7.35996 28.5676 4.55626 25.8673C1.75256 23.1669 0.0214844 19.4335 0.0214844 15.3114C0.0214844 11.1893 1.75256 7.45587 4.55626 4.75554C7.37058 2.0552 11.2363 0.387939 15.5162 0.387939Z"
+                                                fill="#FFC600"></path>
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M12.1494 14.0944C13.0628 13.1534 13.5194 12.6829 13.5194 12.6829C12.7973 10.3201 12.4362 9.1438 12.4362 9.1438C11.8945 8.929 11.3848 8.8574 10.8963 8.94946C4.00383 12.7238 16.9285 25.5504 21.8562 20.61C22.0686 19.6895 22.1536 19.1371 22.1005 18.953C19.9446 17.7563 18.8719 17.1528 18.8719 17.1528C17.7356 18.2472 17.1621 18.7893 17.1621 18.7893C15.1549 18.2268 13.4876 16.672 12.1494 14.0944Z"
+                                                fill="#FFC600"></path>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="nav-item"><a href="https://web.whatsapp.com/" target="_blank">
+
+                                        <svg width="31" height="31" viewBox="0 0 31 31" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M25.6906 4.91964C22.857 2.14373 19.0789 0.601562 15.0586 0.601562C6.77577 0.601562 0.0429688 7.19731 0.0429688 15.3115C0.0429688 17.8027 0.672655 20.2465 1.90781 22.4055L0.624218 27.0083C0.406249 27.7438 0.624218 28.503 1.18125 29.0487C1.73828 29.5944 2.51328 29.8079 3.26406 29.6181L8.15624 28.3607C10.2875 29.452 12.6609 30.0215 15.0828 30.0215C23.3656 30.0215 30.0984 23.4257 30.0984 15.3115C30.0742 11.3968 28.5242 7.69555 25.6906 4.91964ZM15.0586 28.5979C12.8062 28.5979 10.5539 28.0285 8.56796 26.9846C8.47108 26.9371 8.34999 26.8897 8.22889 26.8897C8.15624 26.8897 8.1078 26.8897 8.03514 26.9134L2.87656 28.242C2.51328 28.3369 2.27109 28.1471 2.17422 28.0522C2.07734 27.9573 1.88359 27.7201 1.98047 27.3642L3.33671 22.4767C3.38515 22.2869 3.36093 22.0971 3.26406 21.931C2.10156 19.938 1.49609 17.6366 1.49609 15.3115C1.49609 7.98026 7.57499 2.02511 15.0586 2.02511C18.6914 2.02511 22.1062 3.4012 24.6492 5.91612C27.2164 8.43105 28.6453 11.7764 28.621 15.3115C28.621 22.6428 22.5422 28.5979 15.0586 28.5979Z"
+                                                fill="#15BB53"></path>
+                                            <path
+                                                d="M22.0578 20.3177C21.7671 21.1244 20.314 21.9311 19.6359 21.9785C18.982 22.026 18.3765 22.2632 15.3492 21.1007C11.7164 19.7009 9.41562 16.0471 9.24609 15.8098C9.07656 15.5726 7.79297 13.9118 7.79297 12.1798C7.79297 10.4478 8.71328 9.61742 9.05234 9.26154C9.3914 8.90565 9.75468 8.83447 9.99687 8.83447C10.2391 8.83447 10.4812 8.83447 10.675 8.83447C10.9414 8.83447 11.2078 8.8582 11.4742 9.42762C11.789 10.1157 12.4914 11.8476 12.564 12.0137C12.6609 12.1798 12.7094 12.3933 12.5883 12.6306C12.4672 12.8678 12.4187 13.0102 12.225 13.2237C12.0555 13.4373 11.8375 13.6745 11.6922 13.8406C11.5226 14.0067 11.3289 14.1965 11.5469 14.5524C11.7648 14.9083 12.4672 16.0471 13.5328 16.9724C14.889 18.1587 16.0515 18.5383 16.4148 18.7044C16.7781 18.8705 16.9718 18.8467 17.1898 18.6095C17.4078 18.3722 18.0859 17.5893 18.3281 17.2334C18.5703 16.8775 18.8125 16.9487 19.1273 17.0673C19.4664 17.1859 21.2101 18.04 21.5734 18.2061C21.9367 18.3722 22.1789 18.4671 22.2515 18.6095C22.3484 18.7993 22.3484 19.4873 22.0578 20.3177Z"
+                                                fill="#15BB53"></path>
+                                        </svg>
+                                    </a></li>
+                                <li class="nav-item nav-three-logo">
+                                    <a href="#" class="shopping-cart-logo">
+                                        <img src="./assets/images/shopping-bag.png" alt="">
+                                        <span class="shop-qty-number" id="cart-item-qty-mbl">0</span>
+                                    </a>
+
+                                </li>
+                                <li class="nav-item"><span class="nav-link mob-view-right-errow">
+
+                                        <svg width="22" height="19" viewBox="0 0 11 19" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M0 2.71429L6.875 9.5L0 16.2857L1.375 19L11 9.5L1.375 0L0 2.71429Z"
+                                                fill="#FFD957"></path>
+                                        </svg>
+                                    </span>
+                                </li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </nav>
+            </div>
+            <div class="button_container" id="toggle">
+                <span class="top"></span>
+                <span class="middle"></span>
+                <span class="bottom"></span>
+            </div>
+
+        </div>
+    </header>
+
+    <section class="title-section bg-yellow">
+        <div class="container">
+            <h1 class="title-heading">WHO WE ARE</h1>
+        </div>
+    </section>
+
+    <section class="your-strategy">
+        <div class="container">
+            <div class="box">
+                <h2>YOUR STRATEGY PARTNER <span class="right-box-img"><img src="assets/images/about-us/right-icon.png"
+                            alt=""></span></h2>
+                <p>We are a full solutions Strategy-led Growth, Creative & Tech company, <br> that employs senior
+                    strategic
+                    minds that not only think but do.</p>
+            </div>
+            <div class="box">
+                <h2>YOUR SOLUTION SPECIALISTS <span class="right-box-img"><img
+                            src="assets/images/about-us/right-icon.png" alt=""></span></h2>
+                <p>We collaborate with trusted experts to provide unique <br> and innovative global business growth
+                    solutions, driven <br> by data, strategy and disruptive ideas, executed at speed.</p>
+            </div>
+            <div class="box">
+                <h2>YOUR GROWTH PARTNER <span class="right-box-img"><img src="assets/images/about-us/right-icon.png"
+                            alt=""></span></h2>
+                <p>We work with purpose-led and purpose-seeking <br> brands. We’d love to see what we can do for you.
+                </p>
+            </div>
+            <div class="img-box">
+                <img src="assets/images/about-us/illus-tiga.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="title-section bg-light">
+        <div class="container title-no-pad">
+            <h1 class="title-heading-yellow">What we stand for?</h1>
+        </div>
+    </section>
+
+    <section class="our-values">
+        <div class="container">
+            <div class="our-item">
+                <div class="items">
+                    <div class="image-box"><img src="assets/images/about-us/our-img-1.png" alt=""></div>
+                    <h2>
+                        Uniqueness
+                    </h2>
+                    <p>We are unique, and we want to stay that way, avoiding the cliché, leading the world in
+                        differentiation.</p>
+                </div>
+                <div class="items">
+                    <div class="image-box"><img src="assets/images/about-us/our-img-2.png" alt=""></div>
+                    <h2>
+                        Bravery
+                    </h2>
+                    <p>We trust our instincts, and we always take the extra step - it feels good to be outside our
+                        comfort zone, and it’s this attitude we bring to our clients - feeling invigorated at this
+                        confident attitude.</p>
+                </div>
+                <div class="items">
+                    <div class="image-box"><img src="assets/images/about-us/our-img-3.png" alt=""></div>
+                    <h2>
+                        Simplicity
+                    </h2>
+                    <p>We believe, keeping things simple keeps things memorable, take out the fluff and let the value
+                        shine through.</p>
+                </div>
+                <div class="items">
+                    <div class="image-box"><img src="assets/images/about-us/our-img-4.png" alt=""></div>
+                    <h2>
+                        Smartness
+                    </h2>
+                    <p>We are unique, and we want to stay that way, avoiding the cliché, leading the world in
+                        differentiation.</p>
+                </div>
+                <div class="items">
+                    <div class="image-box"><img src="assets/images/about-us/our-img-5.png" alt=""></div>
+                    <h2>
+                        Staying Real & Fun
+                    </h2>
+                    <p>We all want to be spoken to like human beings, happy to have more real and natural conversations,
+                        it is this realisation that has spurred the new disruptor brands of today.</p>
+                </div>
+    </section>
+
+    <section class="how-they">
+        <div class="container">
+            <div class="box">
+                <h1>How they are
+                    satisfied <br> with
+                    our service.</h1>
+            </div>
+            <div class="box-right">
+                <div class="item">
+                    <h1>4.500</h1>
+                    <div class="content">
+                        <img src="assets/images/about-us/right-icon.png" alt="">
+                        <p>Project Done</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <h1>1.640</h1>
+                    <div class="content">
+                        <img src="assets/images/about-us/right-icon.png" alt="">
+                        <p>Clients Happy</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="client-card">
+        <div class="container">
+            <div class="item">
+                <div class="box">
+                    <p class="cott">Lorem ipsum dolor sit amet, consectetu adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et
+                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip ex ea commodo.</p>
+                </div>
+                <div class="bottom-box">
+                    <div class="img-box"></div>
+                    <div class="right-box">
+                        <h5>Aayush Wiley</h5>
+                        <p class="status">CEO. Kata kita.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="box">
+                    <p class="cott">Lorem ipsum dolor sit amet, consectetu adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et
+                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip ex ea commodo.</p>
+                </div>
+                <div class="bottom-box">
+                    <div class="img-box"></div>
+                    <div class="right-box">
+                        <h5>Aayush Wiley</h5>
+                        <p class="status">CEO. Kata kita.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="our-best">
+        <div class="container">
+            <div class="box">
+                <h1>Our best team <br>
+                    to create your <br>
+                    digital brands.</h1>
+            </div>
+            <div class="right-box">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                <a href="#" class="join-our-team">join our team</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="great-idea">
+        <div class="container bg-yellow">
+            <div class="heading-box">
+                <h1>Have a really
+                    great idea?</h1>
+            </div>
+            <div class="button-box">
+                <a href="#" class="get-started-new">get started</a>
+                <a href="#" class="contact-us">contact us</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="image-box">
+                <img src="assets/images/Unzipgrowth logo.png" alt="">
+            </div>
+            <div class="foot-big-box">
+                <div class="address-box">
+                    <p>Strategic growth advisory firm, known for actionable market <br> intelligence & branded thought
+                        leadership.</p>
+                </div>
+                <div class="link-box">
+                    <ul>
+                        <li class=""><a class="foot-link" href="#">Advised industries</a></li>
+                        <li class=""><a class="foot-link" href="#">Growth Retainership</a></li>
+                    </ul>
+                    <ul>
+                        <li class=""><a class="foot-link" href="#">Join Us</a></li>
+                        <li class=""><a class="foot-link" href="#">Journal</a></li>
+                    </ul>
+                    <ul>
+                        <li class=""><a class="foot-link" href="#">Privacy Policy</a></li>
+                        <li class=""><a class="foot-link" href="#">Terms of Use</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="foot-container">
+            <div class="all-rights">
+                <p>All right reserved | © 2021 Unzip Growth</p>
+            </div>
+            <div class="foot-icon">
+                <a class="foot-icon-link" href="#"><img src="assets/images/insta-icon.png" alt=""></a>
+                <a class="foot-icon-link" href="#"><img src="assets/images/fb-icon.png" alt=""></a>
+                <a class="foot-icon-link" href="#"><img src="assets/images/linkedin-icon.png" alt=""></a>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <footer>
+        <div class="container">
+            <div class="address-box">
+                <div class="image-box">
+                    <img src="./assets/images/Unzipgrowth logo.png" alt="">
+                </div>
+                <p>Strategic growth advisory firm, known for actionable market <br> intelligence &amp; branded thought
+                    leadership.</p>
+            </div>
+            <ul class="footer-unorder-list">
+                <li class=""><a class="foot-link" href="#">Advised industries</a></li>
+                <li class=""><a class="foot-link" href="#">Growth Retainership</a></li>
+            </ul>
+            <ul class="footer-unorder-list">
+                <li class=""><a class="foot-link" href="#">Join Us</a></li>
+                <li class=""><a class="foot-link" href="#">Journal</a></li>
+            </ul>
+            <ul class="footer-unorder-list">
+
+                <li class=""><a class="foot-link" href="./reach-us.html">Reach Us</a></li>
+                <li class=""><a class="foot-link" href="./Terms & Conditions.html">Privacy &amp;
+                        Terms</a></li>
+            </ul>
+            <!-- 		mobile view open -->
+            <ul class="mobile-unorder">
+                <li class="mobile-view-list"><a href="#">Advised Industries</a></li>
+                <li class="mobile-view-list"><a href="#">Growth Retainership</a></li>
+                <li class="mobile-view-list"><a href="#">Join Us</a></li>
+                <li class="mobile-view-list"><a href="#">Journal</a></li>
+                <li class="mobile-view-list"><a href="./reach-us.html">Reach Us</a></li>
+                <li class="mobile-view-list"><a href="./Terms & Conditions.html">Privacy &amp; Terms</a>
+                </li>
+            </ul>
+            <!-- 		mobile view end -->
+        </div>
+        <div class="foot-container">
+            <div class="all-rights">
+                <p>All right reserved | © 2021 Unzip Growth</p>
+            </div>
+            <div class="foot-icon">
+                <a class="foot-icon-link" href="https://www.instagram.com/unzipgrowth/"><img
+                        src="./assets/images/insta-icon.png" alt=""></a>
+                <a class="foot-icon-link" href="https://www.facebook.com/Unzipgrowth-110639224584174/"><img
+                        src="./assets/images/fb-icon.png" alt=""></a>
+                <a class="foot-icon-link" href="#"><img src="./assets/images/linkedin-icon.png" alt=""> </a>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/script.js">
+    </script>
+
+</body>
+
+</html>

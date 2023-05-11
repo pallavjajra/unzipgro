@@ -1,0 +1,1013 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="header-icons">
+                <a class="mob-call-svg" href="tel:+91 7610812939">
+
+                    <svg width="32" height="31" viewBox="0 0 32 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M25.3079 5.8909C22.8015 3.47696 19.35 1.9836 15.5268 1.9836C11.7036 1.9836 8.25204 3.47696 5.74571 5.8909C3.23937 8.30485 1.68884 11.6394 1.68884 15.3114C1.68884 18.9937 3.23937 22.318 5.74571 24.7319C8.25204 27.1459 11.7036 28.6392 15.5268 28.6392C19.35 28.6392 22.8015 27.1459 25.3079 24.7319C27.8142 22.318 29.3648 18.9937 29.3648 15.3114C29.3541 11.6394 27.8036 8.30485 25.3079 5.8909ZM15.5162 0.387939C19.7961 0.387939 23.6724 2.0552 26.4761 4.75554C29.2798 7.45587 31.0109 11.1893 31.0109 15.3114C31.0109 19.4335 29.2798 23.1669 26.4761 25.8673C23.6724 28.5676 19.7961 30.2349 15.5162 30.2349C11.2363 30.2349 7.35996 28.5676 4.55626 25.8673C1.75256 23.1669 0.0214844 19.4335 0.0214844 15.3114C0.0214844 11.1893 1.75256 7.45587 4.55626 4.75554C7.37058 2.0552 11.2363 0.387939 15.5162 0.387939Z"
+                            fill="#FFC600"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M12.1494 14.0944C13.0628 13.1534 13.5194 12.6829 13.5194 12.6829C12.7973 10.3201 12.4362 9.1438 12.4362 9.1438C11.8945 8.929 11.3848 8.8574 10.8963 8.94946C4.00383 12.7238 16.9285 25.5504 21.8562 20.61C22.0686 19.6895 22.1536 19.1371 22.1005 18.953C19.9446 17.7563 18.8719 17.1528 18.8719 17.1528C17.7356 18.2472 17.1621 18.7893 17.1621 18.7893C15.1549 18.2268 13.4876 16.672 12.1494 14.0944Z"
+                            fill="#FFC600"></path>
+                    </svg>
+                </a>
+                <a href="https://web.whatsapp.com/" target="_blank">
+                    <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M25.6906 4.91964C22.857 2.14373 19.0789 0.601562 15.0586 0.601562C6.77577 0.601562 0.0429688 7.19731 0.0429688 15.3115C0.0429688 17.8027 0.672655 20.2465 1.90781 22.4055L0.624218 27.0083C0.406249 27.7438 0.624218 28.503 1.18125 29.0487C1.73828 29.5944 2.51328 29.8079 3.26406 29.6181L8.15624 28.3607C10.2875 29.452 12.6609 30.0215 15.0828 30.0215C23.3656 30.0215 30.0984 23.4257 30.0984 15.3115C30.0742 11.3968 28.5242 7.69555 25.6906 4.91964ZM15.0586 28.5979C12.8062 28.5979 10.5539 28.0285 8.56796 26.9846C8.47108 26.9371 8.34999 26.8897 8.22889 26.8897C8.15624 26.8897 8.1078 26.8897 8.03514 26.9134L2.87656 28.242C2.51328 28.3369 2.27109 28.1471 2.17422 28.0522C2.07734 27.9573 1.88359 27.7201 1.98047 27.3642L3.33671 22.4767C3.38515 22.2869 3.36093 22.0971 3.26406 21.931C2.10156 19.938 1.49609 17.6366 1.49609 15.3115C1.49609 7.98026 7.57499 2.02511 15.0586 2.02511C18.6914 2.02511 22.1062 3.4012 24.6492 5.91612C27.2164 8.43105 28.6453 11.7764 28.621 15.3115C28.621 22.6428 22.5422 28.5979 15.0586 28.5979Z"
+                            fill="#15BB53"></path>
+                        <path
+                            d="M22.0578 20.3177C21.7671 21.1244 20.314 21.9311 19.6359 21.9785C18.982 22.026 18.3765 22.2632 15.3492 21.1007C11.7164 19.7009 9.41562 16.0471 9.24609 15.8098C9.07656 15.5726 7.79297 13.9118 7.79297 12.1798C7.79297 10.4478 8.71328 9.61742 9.05234 9.26154C9.3914 8.90565 9.75468 8.83447 9.99687 8.83447C10.2391 8.83447 10.4812 8.83447 10.675 8.83447C10.9414 8.83447 11.2078 8.8582 11.4742 9.42762C11.789 10.1157 12.4914 11.8476 12.564 12.0137C12.6609 12.1798 12.7094 12.3933 12.5883 12.6306C12.4672 12.8678 12.4187 13.0102 12.225 13.2237C12.0555 13.4373 11.8375 13.6745 11.6922 13.8406C11.5226 14.0067 11.3289 14.1965 11.5469 14.5524C11.7648 14.9083 12.4672 16.0471 13.5328 16.9724C14.889 18.1587 16.0515 18.5383 16.4148 18.7044C16.7781 18.8705 16.9718 18.8467 17.1898 18.6095C17.4078 18.3722 18.0859 17.5893 18.3281 17.2334C18.5703 16.8775 18.8125 16.9487 19.1273 17.0673C19.4664 17.1859 21.2101 18.04 21.5734 18.2061C21.9367 18.3722 22.1789 18.4671 22.2515 18.6095C22.3484 18.7993 22.3484 19.4873 22.0578 20.3177Z"
+                            fill="#15BB53"></path>
+                    </svg>
+                </a>
+                <a href="#" class="shopping-cart-logo">
+                    <img src="./assets/images/shopping bag-img.png" alt="">
+                    <span class="shop-qty-number" id="cart-item-qty">0</span>
+                </a>
+                <a><span class="nav-link mob-view-right-errow">
+                        <svg width="22" height="19" viewBox="0 0 11 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0 2.71429L6.875 9.5L0 16.2857L1.375 19L11 9.5L1.375 0L0 2.71429Z" fill="#FFD957">
+                            </path>
+                        </svg>
+                    </span></a>
+            </div>
+            <div class="logo">
+                <a class="logo-icon-head" href="./homepage.html"><img src="./assets/images/Unzipgrowth logo.png"
+                        alt="Logo"></a>
+            </div>
+            <div class="overlay" id="overlay">
+                <nav class="overlay-menu">
+                    <ul>
+                        <div id="overlay-cross">
+
+                        </div>
+                        <li class="logo-menu"><a href="./homepage.html"><img src="./assets/images/Unzipgrowth logo.png"
+                                    alt=""></a>
+                            <div class="connn">
+                                <div class="connn-top"></div>
+                                <div class="connn-bottom"></div>
+                            </div>
+                        </li>
+                        <li class="nav-items"><a class="nav-link" href="./who-we-are.html">Who
+                                we
+                                are?</a></li>
+                        <li class="nav-items"><a class="nav-link" href="./What_we_do.html">What we
+                                do?</a></li>
+                        <li class="nav-items"><a class="nav-link" href="./How we do it.html">How we do
+                                it? </a></li>
+                        <li class="nav-items nav-items-arrow set">
+                            <a class="nav-link" href="./what-have-we-done.html">What have
+                                we done?</a>
+
+                        </li>
+
+                        <li class="nav-items nav-items-arrow set">
+                            <a class="nav-link" href="./What-do-we-offer.html">What do we
+                                Offer?</a>
+                        </li>
+
+
+                        <li class="nav-items"><a href="#" class="get-started">Get started</a></li>
+                        <li class="nav-items">
+                            <ul class="icon">
+                                <li class="nav-item"><a href="tel:+91 7610812939">
+
+                                        <svg width="32" height="31" viewBox="0 0 32 31" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M25.3079 5.8909C22.8015 3.47696 19.35 1.9836 15.5268 1.9836C11.7036 1.9836 8.25204 3.47696 5.74571 5.8909C3.23937 8.30485 1.68884 11.6394 1.68884 15.3114C1.68884 18.9937 3.23937 22.318 5.74571 24.7319C8.25204 27.1459 11.7036 28.6392 15.5268 28.6392C19.35 28.6392 22.8015 27.1459 25.3079 24.7319C27.8142 22.318 29.3648 18.9937 29.3648 15.3114C29.3541 11.6394 27.8036 8.30485 25.3079 5.8909ZM15.5162 0.387939C19.7961 0.387939 23.6724 2.0552 26.4761 4.75554C29.2798 7.45587 31.0109 11.1893 31.0109 15.3114C31.0109 19.4335 29.2798 23.1669 26.4761 25.8673C23.6724 28.5676 19.7961 30.2349 15.5162 30.2349C11.2363 30.2349 7.35996 28.5676 4.55626 25.8673C1.75256 23.1669 0.0214844 19.4335 0.0214844 15.3114C0.0214844 11.1893 1.75256 7.45587 4.55626 4.75554C7.37058 2.0552 11.2363 0.387939 15.5162 0.387939Z"
+                                                fill="#FFC600"></path>
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M12.1494 14.0944C13.0628 13.1534 13.5194 12.6829 13.5194 12.6829C12.7973 10.3201 12.4362 9.1438 12.4362 9.1438C11.8945 8.929 11.3848 8.8574 10.8963 8.94946C4.00383 12.7238 16.9285 25.5504 21.8562 20.61C22.0686 19.6895 22.1536 19.1371 22.1005 18.953C19.9446 17.7563 18.8719 17.1528 18.8719 17.1528C17.7356 18.2472 17.1621 18.7893 17.1621 18.7893C15.1549 18.2268 13.4876 16.672 12.1494 14.0944Z"
+                                                fill="#FFC600"></path>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="nav-item"><a href="https://web.whatsapp.com/" target="_blank">
+
+                                        <svg width="31" height="31" viewBox="0 0 31 31" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M25.6906 4.91964C22.857 2.14373 19.0789 0.601562 15.0586 0.601562C6.77577 0.601562 0.0429688 7.19731 0.0429688 15.3115C0.0429688 17.8027 0.672655 20.2465 1.90781 22.4055L0.624218 27.0083C0.406249 27.7438 0.624218 28.503 1.18125 29.0487C1.73828 29.5944 2.51328 29.8079 3.26406 29.6181L8.15624 28.3607C10.2875 29.452 12.6609 30.0215 15.0828 30.0215C23.3656 30.0215 30.0984 23.4257 30.0984 15.3115C30.0742 11.3968 28.5242 7.69555 25.6906 4.91964ZM15.0586 28.5979C12.8062 28.5979 10.5539 28.0285 8.56796 26.9846C8.47108 26.9371 8.34999 26.8897 8.22889 26.8897C8.15624 26.8897 8.1078 26.8897 8.03514 26.9134L2.87656 28.242C2.51328 28.3369 2.27109 28.1471 2.17422 28.0522C2.07734 27.9573 1.88359 27.7201 1.98047 27.3642L3.33671 22.4767C3.38515 22.2869 3.36093 22.0971 3.26406 21.931C2.10156 19.938 1.49609 17.6366 1.49609 15.3115C1.49609 7.98026 7.57499 2.02511 15.0586 2.02511C18.6914 2.02511 22.1062 3.4012 24.6492 5.91612C27.2164 8.43105 28.6453 11.7764 28.621 15.3115C28.621 22.6428 22.5422 28.5979 15.0586 28.5979Z"
+                                                fill="#15BB53"></path>
+                                            <path
+                                                d="M22.0578 20.3177C21.7671 21.1244 20.314 21.9311 19.6359 21.9785C18.982 22.026 18.3765 22.2632 15.3492 21.1007C11.7164 19.7009 9.41562 16.0471 9.24609 15.8098C9.07656 15.5726 7.79297 13.9118 7.79297 12.1798C7.79297 10.4478 8.71328 9.61742 9.05234 9.26154C9.3914 8.90565 9.75468 8.83447 9.99687 8.83447C10.2391 8.83447 10.4812 8.83447 10.675 8.83447C10.9414 8.83447 11.2078 8.8582 11.4742 9.42762C11.789 10.1157 12.4914 11.8476 12.564 12.0137C12.6609 12.1798 12.7094 12.3933 12.5883 12.6306C12.4672 12.8678 12.4187 13.0102 12.225 13.2237C12.0555 13.4373 11.8375 13.6745 11.6922 13.8406C11.5226 14.0067 11.3289 14.1965 11.5469 14.5524C11.7648 14.9083 12.4672 16.0471 13.5328 16.9724C14.889 18.1587 16.0515 18.5383 16.4148 18.7044C16.7781 18.8705 16.9718 18.8467 17.1898 18.6095C17.4078 18.3722 18.0859 17.5893 18.3281 17.2334C18.5703 16.8775 18.8125 16.9487 19.1273 17.0673C19.4664 17.1859 21.2101 18.04 21.5734 18.2061C21.9367 18.3722 22.1789 18.4671 22.2515 18.6095C22.3484 18.7993 22.3484 19.4873 22.0578 20.3177Z"
+                                                fill="#15BB53"></path>
+                                        </svg>
+                                    </a></li>
+                                <li class="nav-item nav-three-logo">
+                                    <a href="#" class="shopping-cart-logo">
+                                        <img src="./assets/images/shopping-bag.png" alt="">
+                                        <span class="shop-qty-number" id="cart-item-qty-mbl">0</span>
+                                    </a>
+
+                                </li>
+                                <li class="nav-item"><span class="nav-link mob-view-right-errow">
+
+                                        <svg width="22" height="19" viewBox="0 0 11 19" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M0 2.71429L6.875 9.5L0 16.2857L1.375 19L11 9.5L1.375 0L0 2.71429Z"
+                                                fill="#FFD957"></path>
+                                        </svg>
+                                    </span>
+                                </li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </nav>
+            </div>
+            <div class="button_container" id="toggle">
+                <span class="top"></span>
+                <span class="middle"></span>
+                <span class="bottom"></span>
+            </div>
+
+        </div>
+    </header>
+    <section class="title-section bg-yellow">
+        <div class="container">
+            <h1 class="title-heading">Our Solutions</h1>
+        </div>
+    </section>
+    <div class="page-wrap">
+        <div class="page-wrap-inner">
+            <section class="solution-tab-section">
+                <div class="container">
+                    <div class="tabs-section">
+                        <ul id="solution-tab-slide" class="owl-carousel owl-theme">
+                            <li class="tab-list active" data-filter="design-solutions">Design Solutions</li>
+                            <li class="tab-list" data-filter="business-advertising">Business & Advertising</li>
+                            <li class="tab-list" data-filter="web-design-development">Web Design & Development</li>
+                            <li class="tab-list" data-filter="digital-marketing-design">Digital Marketing Design</li>
+                            <li class="tab-list" data-filter="search-engine-optimization">Search Engine Optimization
+                            </li>
+                        </ul>
+                    </div>
+                    <p>Our talented team of designers is focused on creating a unique identity for your brand. Whether
+                        you are a start up or an organization looking to refresh your brand our Design Solutions offer
+                        you the perfect mix of choice, creativity, cost-efficiency and quick turnarounds that create
+                        lasting impressions.</p>
+                    <div class="items">
+                        <div class="item-box design-solutions">
+                            <div class="plus-icon-box">
+                                <img src="assets/images/plue-icon.png" alt="">
+                            </div>
+                            <div class="img-box "><img src="assets/images/solution/img-1.png" alt="img-1"></div>
+                            <h5>Letterhead</h5>
+                            <h3>₹ 12,000</h3>
+                        </div>
+                        <div class="item-box design-solutions">
+                            <div class="plus-icon-box">
+                                <img src="assets/images/plue-icon.png" alt="">
+                            </div>
+                            <div class="img-box"><img src="assets/images/solution/img-2.png" alt="img-2"></div>
+                            <h5>Brand Guide</h5>
+                            <h3>₹ 15,000</h3>
+                        </div>
+                        <div class="item-box design-solutions">
+                            <div class="plus-icon-box">
+                                <img src="assets/images/plue-icon.png" alt="">
+                            </div>
+                            <div class="img-box"><img src="assets/images/solution/img-3.png" alt="img-3"></div>
+                            <h5>Icon Design</h5>
+                            <h3>₹ 12,500</h3>
+                        </div>
+                        <div class="item-box design-solutions">
+                            <div class="plus-icon-box">
+                                <img src="assets/images/plue-icon.png" alt="">
+                            </div>
+                            <div class="img-box"><img src="assets/images/solution/img-4.png" alt="img-4"></div>
+                            <h5>Email Signature</h5>
+                            <h3>₹ 7,000</h3>
+                        </div>
+                        <div class="item-box design-solutions">
+                            <div class="plus-icon-box">
+                                <img src="assets/images/plue-icon.png" alt="">
+                            </div>
+                            <div class="img-box"><img src="assets/images/solution/img-5.png" alt="img-5"></div>
+                            <h5>Email Template</h5>
+                            <h3>₹ 7,000</h3>
+                        </div>
+                        <div class="item-box design-solutions">
+                            <div class="plus-icon-box">
+                                <img src="assets/images/plue-icon.png" alt="">
+                            </div>
+                            <div class="img-box"><img src="assets/images/solution/img-6.png" alt="img-6"></div>
+                            <h5>Business Card</h5>
+                            <h3>₹ 11,000</h3>
+                        </div>
+                        <div class="item-box design-solutions">
+                            <div class="plus-icon-box">
+                                <img src="assets/images/plue-icon.png" alt="">
+                            </div>
+                            <div class="img-box"><img src="assets/images/solution/img-7.png" alt="img-7"></div>
+                            <h5>Letterhead</h5>
+                            <h3>₹ 16,996</h3>
+                        </div>
+                        <div class="item-box design-solutions">
+                            <div class="plus-icon-box">
+                                <img src="assets/images/plue-icon.png" alt="">
+                            </div>
+                            <div class="img-box"><img src="assets/images/solution/img-8.png" alt="img-8"></div>
+                            <h5>Envelope</h5>
+                            <h3>₹ 12,500</h3>
+                        </div>
+                        <div class="item-box design-solutions">
+                            <div class="plus-icon-box">
+                                <img src="assets/images/plue-icon.png" alt="">
+                            </div>
+                            <div class="img-box"><img src="assets/images/solution/img-9.png" alt="img-9"></div>
+                            <h5>Presentation Folder</h5>
+                            <h3>₹ 12,000</h3>
+                        </div>
+                        <div class="item-box design-solutions">
+                            <div class="plus-icon-box">
+                                <img src="assets/images/plue-icon.png" alt="">
+                            </div>
+                            <div class="img-box"><img src="assets/images/solution/img-10.png" alt="img-10"></div>
+                            <h5>Power Point Presentation</h5>
+                            <h3>₹ 11,000</h3>
+                        </div>
+                        <div class="item-box design-solutions">
+                            <div class="plus-icon-box">
+                                <img src="assets/images/plue-icon.png" alt="">
+                            </div>
+                            <div class="img-box"><img src="assets/images/solution/img-11.png" alt="img-11"></div>
+                            <h5>Company Profile</h5>
+                            <h3>₹ 15,000</h3>
+                        </div>
+                        <div class="item-box design-solutions">
+                            <div class="plus-icon-box">
+                                <img src="assets/images/plue-icon.png" alt="">
+                            </div>
+                            <div class="img-box"><img src="assets/images/solution/img-12.png" alt="img-12"></div>
+                            <h5>Logo Animation</h5>
+                            <h3>₹ 12,000</h3>
+                        </div><!-- Business & Advertising -->
+                        <div class="item-box business-advertising">
+                            <div class="plus-icon-box">
+                                <img src="assets/images/plue-icon.png" alt="">
+                            </div>
+                            <div class="img-box"><img
+                                    src="assets/images/solution/business%20&amp;%20add/business-img-1.png"
+                                    alt="business-img-1"></div>
+                            <h5>Flyer Design</h5>
+                            <h3>₹ 12,000</h3>
+                        </div>
+                        <div class="item-box business-advertising">
+                            <div class="plus-icon-box">
+                                <img src="assets/images/plue-icon.png" alt="">
+                            </div>
+                            <div class="img-box"><img
+                                    src="assets/images/solution/business%20&amp;%20add/business-img-2.png"
+                                    alt="business-img-2"></div>
+                            <h5>Brochure Design</h5>
+                            <h3>₹ 15,000</h3>
+                        </div>
+                        <div class="item-box business-advertising">
+                            <div class="plus-icon-box">
+                                <img src="assets/images/plue-icon.png" alt="">
+                            </div>
+                            <div class="img-box"><img
+                                    src="assets/images/solution/business%20&amp;%20add/business-img-3.png"
+                                    alt="business-img-3"></div>
+                            <h5>T-Shirt Design</h5>
+                            <h3>₹ 12,500</h3>
+                        </div>
+                        <div class="item-box business-advertising">
+                            <div class="plus-icon-box">
+                                <img src="assets/images/plue-icon.png" alt="">
+                            </div>
+                            <div class="img-box"><img
+                                    src="assets/images/solution/business%20&amp;%20add/business-img-4.png"
+                                    alt="business-img-4"></div>
+                            <h5>Packaging</h5>
+                            <h3>₹29,214</h3>
+                        </div>
+                        <div class="item-box business-advertising">
+                            <div class="plus-icon-box">
+                                <img src="assets/images/plue-icon.png" alt="">
+                            </div>
+                            <div class="img-box"><img
+                                    src="assets/images/solution/business%20&amp;%20add/business-img-5.png"
+                                    alt="business-img-5"></div>
+                            <h5>Signage Design</h5>
+                            <h3>₹ 18,231</h3>
+                        </div>
+                        <div class="item-box business-advertising">
+                            <div class="plus-icon-box">
+                                <img src="assets/images/plue-icon.png" alt="">
+                            </div>
+                            <div class="img-box"><img
+                                    src="assets/images/solution/business%20&amp;%20add/business-img-6.png"
+                                    alt="business-img-6"></div>
+                            <h5>Google Ad</h5>
+                            <h3>₹ 29,214</h3>
+                        </div>
+                        <div class="item-box business-advertising">
+                            <div class="plus-icon-box">
+                                <img src="assets/images/plue-icon.png" alt="">
+                            </div>
+                            <div class="img-box"><img
+                                    src="assets/images/solution/business%20&amp;%20add/business-img-7.png"
+                                    alt="business-img-7"></div>
+                            <h5>Billboard Design</h5>
+                            <h3>₹ 16,996</h3>
+                        </div>
+                        <div class="item-box business-advertising">
+                            <div class="plus-icon-box">
+                                <img src="assets/images/plue-icon.png" alt="">
+                            </div>
+                            <div class="img-box"><img
+                                    src="assets/images/solution/business%20&amp;%20add/business-img-8.png"
+                                    alt="business-img-8"></div>
+                            <h5>Book Cover</h5>
+                            <h3>₹ 12,500</h3>
+                        </div>
+                        <div class="item-box business-advertising">
+                            <div class="plus-icon-box">
+                                <img src="assets/images/plue-icon.png" alt="">
+                            </div>
+                            <div class="img-box"><img
+                                    src="assets/images/solution/business%20&amp;%20add/business-img-9.png"
+                                    alt="business-img-9"></div>
+                            <h5>Calendar Design</h5>
+                            <h3>₹ 12,000</h3>
+                        </div>
+                        <div class="item-box business-advertising">
+                            <div class="plus-icon-box">
+                                <img src="assets/images/plue-icon.png" alt="">
+                            </div>
+                            <div class="img-box"><img
+                                    src="assets/images/solution/business%20&amp;%20add/business-img-10.png"
+                                    alt="business-img-10"></div>
+                            <h5>Vehicle Wrap</h5>
+                            <h3>₹ 11,000</h3>
+                        </div>
+                        <div class="item-box business-advertising">
+                            <div class="plus-icon-box">
+                                <img src="assets/images/plue-icon.png" alt="">
+                            </div>
+                            <div class="img-box"><img
+                                    src="assets/images/solution/business%20&amp;%20add/business-img-11.png"
+                                    alt="business-img-11"></div>
+                            <h5>Catalogue Design</h5>
+                            <h3>₹ 15,000</h3>
+                        </div>
+                        <div class="item-box business-advertising">
+                            <div class="plus-icon-box">
+                                <img src="assets/images/plue-icon.png" alt="">
+                            </div>
+                            <div class="img-box"><img
+                                    src="assets/images/solution/business%20&amp;%20add/business-img-12.png"
+                                    alt="business-img-12"></div>
+                            <h5>Album Cover</h5>
+                            <h3>₹ 12,000</h3>
+                        </div>
+                        <div class="item-box business-advertising">
+                            <div class="plus-icon-box">
+                                <img src="assets/images/plue-icon.png" alt="">
+                            </div>
+                            <div class="img-box"><img
+                                    src="assets/images/solution/business%20&amp;%20add/business-img-13.png"
+                                    alt="business-img-13"></div>
+                            <h5>Mascot</h5>
+                            <h3>₹ 16,996</h3>
+                        </div>
+                        <div class="item-box business-advertising">
+                            <div class="plus-icon-box">
+                                <img src="assets/images/plue-icon.png" alt="">
+                            </div>
+                            <div class="img-box"><img
+                                    src="assets/images/solution/business%20&amp;%20add/business-img-14.png"
+                                    alt="business-img-14"></div>
+                            <h5>Cup Branding</h5>
+                            <h3>₹ 12,500</h3>
+                        </div>
+                        <div class="item-box business-advertising">
+                            <div class="plus-icon-box">
+                                <img src="assets/images/plue-icon.png" alt="">
+                            </div>
+                            <div class="img-box"><img
+                                    src="assets/images/solution/business%20&amp;%20add/business-img-15.png"
+                                    alt="business-img-15"></div>
+                            <h5>eBook Cover</h5>
+                            <h3>₹ 12,000</h3>
+                        </div>
+                        <div class="item-box business-advertising">
+                            <div class="plus-icon-box">
+                                <img src="assets/images/plue-icon.png" alt="">
+                            </div>
+                            <div class="img-box"><img
+                                    src="assets/images/solution/business%20&amp;%20add/business-img-16.png"
+                                    alt="business-img-16"></div>
+                            <h5>Greeting Card</h5>
+                            <h3>₹ 11,000</h3>
+                        </div>
+                        <div class="item-box business-advertising">
+                            <div class="plus-icon-box">
+                                <img src="assets/images/plue-icon.png" alt="">
+                            </div>
+                            <div class="img-box"><img
+                                    src="assets/images/solution/business%20&amp;%20add/business-img-17.png"
+                                    alt="business-img-17"></div>
+                            <h5>Infographic</h5>
+                            <h3>₹ 15,000</h3>
+                        </div>
+                        <div class="item-box business-advertising">
+                            <div class="plus-icon-box">
+                                <img src="assets/images/plue-icon.png" alt="">
+                            </div>
+                            <div class="img-box"><img
+                                    src="assets/images/solution/business%20&amp;%20add/business-img-18.png"
+                                    alt="business-img-18"></div>
+                            <h5>Invitation Design</h5>
+                            <h3>₹ 12,000</h3>
+                        </div>
+                        <div class="item-box business-advertising">
+                            <div class="plus-icon-box">
+                                <img src="assets/images/plue-icon.png" alt="">
+                            </div>
+                            <div class="img-box"><img
+                                    src="assets/images/solution/business%20&amp;%20add/business-img-19.png"
+                                    alt="business-img-19"></div>
+                            <h5>Product Label</h5>
+                            <h3>₹ 16,996</h3>
+                        </div>
+                        <div class="item-box business-advertising">
+                            <div class="plus-icon-box">
+                                <img src="assets/images/plue-icon.png" alt="">
+                            </div>
+                            <div class="img-box"><img
+                                    src="assets/images/solution/business%20&amp;%20add/business-img-20.png"
+                                    alt="business-img-20"></div>
+                            <h5>Magazine Design</h5>
+                            <h3>₹ 12,500</h3>
+                        </div>
+                        <div class="item-box business-advertising">
+                            <div class="plus-icon-box">
+                                <img src="assets/images/plue-icon.png" alt="">
+                            </div>
+                            <div class="img-box"><img
+                                    src="assets/images/solution/business%20&amp;%20add/business-img-21.png"
+                                    alt="business-img-21"></div>
+                            <h5>Menu Design</h5>
+                            <h3>₹ 12,000</h3>
+                        </div>
+                        <div class="item-box business-advertising">
+                            <div class="plus-icon-box">
+                                <img src="assets/images/plue-icon.png" alt="">
+                            </div>
+                            <div class="img-box"><img
+                                    src="assets/images/solution/business%20&amp;%20add/business-img-22.png"
+                                    alt="business-img-22"></div>
+                            <h5>Newspaper Ad</h5>
+                            <h3>₹ 11,000</h3>
+                        </div>
+                        <div class="item-box business-advertising">
+                            <div class="plus-icon-box">
+                                <img src="assets/images/plue-icon.png" alt="">
+                            </div>
+                            <div class="img-box"><img
+                                    src="assets/images/solution/business%20&amp;%20add/business-img-23.png"
+                                    alt="business-img-23"></div>
+                            <h5>Postcard</h5>
+                            <h3>₹ 15,000</h3>
+                        </div>
+                        <div class="item-box business-advertising">
+                            <div class="plus-icon-box">
+                                <img src="assets/images/plue-icon.png" alt="">
+                            </div>
+                            <div class="img-box"><img
+                                    src="assets/images/solution/business%20&amp;%20add/business-img-24.png"
+                                    alt="business-img-24"></div>
+                            <h5>Poster</h5>
+                            <h3>₹ 12,000</h3>
+                        </div>
+                        <div class="item-box business-advertising">
+                            <div class="plus-icon-box">
+                                <img src="assets/images/plue-icon.png" alt="">
+                            </div>
+                            <div class="img-box"><img
+                                    src="assets/images/solution/business%20&amp;%20add/business-img-25.png"
+                                    alt="business-img-25"></div>
+                            <h5>Resume</h5>
+                            <h3>₹ 16,996</h3>
+                        </div>
+                        <div class="item-box business-advertising">
+                            <div class="plus-icon-box">
+                                <img src="assets/images/plue-icon.png" alt="">
+                            </div>
+                            <div class="img-box"><img
+                                    src="assets/images/solution/business%20&amp;%20add/business-img-26.png"
+                                    alt="business-img-26"></div>
+                            <h5>Sticker</h5>
+                            <h3>₹ 12,500</h3>
+                        </div>
+                        <div class="item-box business-advertising">
+                            <div class="plus-icon-box">
+                                <img src="assets/images/plue-icon.png" alt="">
+                            </div>
+                            <div class="img-box"><img
+                                    src="assets/images/solution/business%20&amp;%20add/business-img-27.png"
+                                    alt="business-img-27"></div>
+                            <h5>Trade Booth</h5>
+                            <h3>₹ 12,000</h3>
+                        </div>
+                        <div class="item-box web-design-development">
+                            <div class="plus-icon-box">
+                                <img src="assets/images/plue-icon.png" alt="">
+                            </div>
+                            <div class="img-box"><img src="assets/images/solution/web-design/web-design-img-1.png"
+                                    alt="web-design-img-1"></div>
+                            <h5>Email Template & HTML</h5>
+                            <h3>₹ 12,000</h3>
+                        </div>
+                        <div class="item-box web-design-development">
+                            <div class="plus-icon-box">
+                                <img src="assets/images/plue-icon.png" alt="">
+                            </div>
+                            <div class="img-box"><img src="assets/images/solution/web-design/web-design-img-2.png"
+                                    alt="web-design-img-2"></div>
+                            <h5>Landing Page</h5>
+                            <h3>₹ 15,000</h3>
+                        </div>
+                        <div class="item-box web-design-development">
+                            <div class="plus-icon-box">
+                                <img src="assets/images/plue-icon.png" alt="">
+                            </div>
+                            <div class="img-box"><img src="assets/images/solution/web-design/web-design-img-3.png"
+                                    alt="web-design-img-3"></div>
+                            <h5>Website Design</h5>
+                            <h3>₹ 12,500</h3>
+                        </div>
+                        <div class="item-box web-design-development">
+                            <div class="plus-icon-box">
+                                <img src="assets/images/plue-icon.png" alt="">
+                            </div>
+                            <div class="img-box"><img src="assets/images/solution/web-design/web-design-img-4.png"
+                                    alt="web-design-img-4"></div>
+                            <h5>WooCommerce</h5>
+                            <h3>₹ 7,000</h3>
+                        </div>
+                        <div class="item-box web-design-development">
+                            <div class="plus-icon-box">
+                                <img src="assets/images/plue-icon.png" alt="">
+                            </div>
+                            <div class="img-box"><img src="assets/images/solution/web-design/web-design-img-5.png"
+                                    alt="web-design-img-5"></div>
+                            <h5>Shopify Website</h5>
+                            <h3>₹ 7,000</h3>
+                        </div>
+                        <div class="item-box digital-marketing-design">
+                            <div class="plus-icon-box">
+                                <img src="assets/images/plue-icon.png" alt="">
+                            </div>
+                            <div class="img-box"><img src="assets/images/solution/digital/digital-img-1.png"
+                                    alt="digital-img-1"></div>
+                            <h5>Blog Design</h5>
+                            <h3>₹ 12,000</h3>
+                        </div>
+                        <div class="item-box digital-marketing-design">
+                            <div class="plus-icon-box">
+                                <img src="assets/images/plue-icon.png" alt="">
+                            </div>
+                            <div class="img-box"><img src="assets/images/solution/digital/digital-img-2.png"
+                                    alt="digital-img-2"></div>
+                            <h5>Social Media Design</h5>
+                            <h3>₹ 15,000</h3>
+                        </div>
+                        <div class="item-box digital-marketing-design">
+                            <div class="plus-icon-box">
+                                <img src="assets/images/plue-icon.png" alt="">
+                            </div>
+                            <div class="img-box"><img src="assets/images/solution/digital/digital-img-3.png"
+                                    alt="digital-img-3"></div>
+                            <h5>Newsletter Design</h5>
+                            <h3>₹ 12,500</h3>
+                        </div>
+                        <div class="item-box digital-marketing-design">
+                            <div class="plus-icon-box">
+                                <img src="assets/images/plue-icon.png" alt="">
+                            </div>
+                            <div class="img-box">
+                                <img src="assets/images/solution/digital/digital-img-4.png" alt="digital-img-4">
+                            </div>
+                            <h5>Twitter Branding</h5>
+                            <h3>₹ 7,000</h3>
+                        </div>
+                        <div class="item-box digital-marketing-design">
+                            <div class="plus-icon-box">
+                                <img src="assets/images/plue-icon.png" alt="">
+                            </div>
+                            <div class="img-box"><img src="assets/images/solution/digital/digital-img-5.png"
+                                    alt="digital-img-5"></div>
+                            <h5>Channel Branding</h5>
+                            <h3>₹ 7,000</h3>
+                        </div>
+                        <div class="item-box search-engine-optimization">
+                            <div class="plus-icon-box">
+                                <img src="assets/images/plue-icon.png" alt="">
+                            </div>
+                            <div class="img-box"><img src="assets/images/solution/search-engine/search-engine-img-1.png"
+                                    alt="search-engine-img-1"></div>
+                            <h5>Standard SEO</h5>
+                            <h3>₹ 12,000</h3>
+                        </div>
+                        <div class="item-box search-engine-optimization">
+                            <div class="plus-icon-box">
+                                <img src="assets/images/plue-icon.png" alt="">
+                            </div>
+                            <div class="img-box"><img src="assets/images/solution/search-engine/search-engine-img-2.png"
+                                    alt="search-engine-img-2"></div>
+                            <h5>Standard SEO</h5>
+                            <h3>₹ 15,000</h3>
+                        </div>
+                        <div class="item-box search-engine-optimization">
+                            <div class="plus-icon-box">
+                                <img src="assets/images/plue-icon.png" alt="">
+                            </div>
+                            <div class="img-box"><img src="assets/images/solution/search-engine/search-engine-img-3.png"
+                                    alt="search-engine-img-3"></div>
+                            <h5>Standard SEO</h5>
+                            <h3>₹ 12,500</h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="great-idea">
+                <div class="container bg-yellow">
+                    <div class="heading-box">
+                        <h1>Have a business problem?</h1>
+                    </div>
+                    <div class="button-box">
+                        <a href="#" class="get-started-new">contact us</a>
+                        <!-- <a href="#" class="contact-us">contact us</a> -->
+                    </div>
+                </div>
+            </section>
+
+        </div>
+        <div class="cart-summary">
+            <div class="cart-summary-inner-box" id="cart-next-a">
+                <div class="cart-content">
+                    <a class="cart-button"><img src="assets/images/solution/cart-button.png" alt="cart-button"></a>
+                </div>
+                <div class="cart-summary-item-list">
+                    <h2><span>1</span> items in your cart</h2>
+                    <div class="cart-box">
+                        <span><img src="assets/images/solution/img-1.png" alt="img-1"></span>
+                        <div class="cart-right">
+                            <h5>Logo Design</h5>
+                            <div class="cart-bottom-box">
+                                <ul class="left-list-box">
+                                    <li class="cart-price">Price</li>
+                                    <li class="cart-qty">Qty</li>
+                                </ul>
+                                <ul class="right-list-box">
+                                    <li class="cart-price-rate">₹12,000</li>
+                                    <li class="cart-qty-rate"><span class="qty"><button class="dec"
+                                                onclick="modify_qty(-1)"><span class="qty"><span class="qty">-</span>
+                                                    <input class="select-on-focus" id="qty" value="1"> <button
+                                                        class="inc"
+                                                        onclick="modify_qty(+1)">+</button></span></button></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="cart-right-close-btn"><img src="assets/images/solution/x.png" alt="x"></div>
+                    </div>
+                </div>
+                <div class="sub-total-section">
+                    <span class="sub-total">Subtotal</span> <span class="sub-total-qty">₹12,000</span>
+                </div>
+                <div class="proceed-to">
+                    <a href="#">Proceed to Checkout</a>
+                </div>
+            </div><!-- contact section -->
+            <div class="contact-section contact-sections">
+                <div class="cart-content">
+                    <a class="cart-button"><img src="assets/images/solution/cart-button.png" alt="cart-button"></a>
+                </div>
+                <div class="con-box">
+                    <div class="con-left">
+                        <div class="right-icon"><img src="assets/images/right-green.png" alt="right-green"></div>
+                        <div class="logo-design"><img src="assets/images/solution/img-1.png" alt="img-1"></div>
+                        <h5>Logo Design</h5>
+                    </div>
+                    <div class="pricing">
+                        <span class="pri">Price</span> <span class="qty">₹12,000</span>
+                    </div>
+                </div>
+                <h3 class="contact-details"><span><img src="assets/images/two-no.png" alt="two-no"></span>Contact
+                    Details</h3>
+                <form action="">
+                    <div class="what-do-we-form" id="">
+                        <label for="">Your Name*</label> <input type="text" placeholder=""> <label for="">Company
+                            name*</label> <input type="text" placeholder=""> <label for="">Company Address*</label>
+                        <input type="text" placeholder=""> <label for="">GSTIN Number*</label> <input type="text"
+                            placeholder=""> <label for="">Email Address*</label> <input type="text" placeholder="">
+                        <label for="">Mobile Number*</label> <input type="text" placeholder="">
+                    </div>
+                    <div class="form-group form-bottom-new">
+                        <input type="checkbox" id="html"> <label for="html">Use GSTIN detail for this booking</label>
+                    </div><span class="note">NOTE: This number cannot be updated once booking is completed</span> <a
+                        href="#" class="continue-button">Continue</a>
+                </form>
+            </div><!-- calander-section -->
+            <div class="calander-section calander-new">
+                <div class="contact-section">
+                    <div class="cart-content">
+                        <a class="cart-button"><img src="assets/images/solution/cart-button.png" alt="cart-button"></a>
+                    </div>
+                    <div class="con-box">
+                        <div class="con-left">
+                            <div class="right-icon"><img src="assets/images/right-green.png" alt="right-green"></div>
+                            <div class="logo-design"><img src="assets/images/solution/img-1.png" alt="img-1"></div>
+                            <h5>Logo Design</h5>
+                        </div>
+                        <div class="pricing">
+                            <span class="pri">Price</span> <span class="qty">₹12,000</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="sakshi-section">
+                    <div class="left-img-box"><img src="assets/images/right-green.png" alt="right-green"></div>
+                    <h5 class="sakshi-heading">Sakshi Maggon</h5>
+                    <ul class="detai">
+                        <li>Jazz My Home</li>
+                        <li>ABC- 13, West Delhi, Delhi - 110034</li>
+                        <li>GB75678901100</li>
+                        <li>sakshi.maggon@unzipgrowth.com</li>
+                        <li>+91 9546789000</li>
+                    </ul>
+                </div>
+                <div class="boox-consultion">
+                    <div class="img-boo"><img src="assets/images/three-no.png" alt="three-no"></div>
+                    <h3 class="book-con">Book Consultation Call</h3>
+                    <p>A Growth Strategist will call you as per your convenience to understand your project requirements
+                        & deadlines. Please choose a slot.</p>
+                </div>
+                <h3 class="select-appoint">Select appointment date & time</h3>
+                <div class="appointment-slider">
+                    <div class="items">
+                        <div class="today-top">
+                            Today
+                        </div>
+                        <div class="bottom-date">
+                            <span class="qty-slot">12</span>Slots
+                        </div>
+                    </div>
+                    <div class="items">
+                        <div class="today-top">
+                            Tomorrow
+                        </div>
+                        <div class="bottom-date">
+                            <span class="qty-slot">12</span>Slots
+                        </div>
+                    </div>
+                    <div class="items">
+                        <div class="today-top">
+                            Today
+                        </div>
+                        <div class="bottom-date">
+                            <span class="qty-slot">12</span>Slots
+                        </div>
+                    </div>
+                    <div class="items">
+                        <div class="today-top">
+                            Today
+                        </div>
+                        <div class="bottom-date">
+                            <span class="qty-slot">12</span>Slots
+                        </div>
+                    </div>
+                    <div class="items">
+                        <div class="today-top">
+                            Today
+                        </div>
+                        <div class="bottom-date">
+                            <span class="qty-slot">12</span>Slots
+                        </div>
+                    </div>
+                    <div class="items">
+                        <div class="today-top">
+                            Today
+                        </div>
+                        <div class="bottom-date">
+                            <span class="qty-slot">12</span>Slots
+                        </div>
+                    </div>
+                    <div class="items">
+                        <div class="today-top">
+                            Today
+                        </div>
+                        <div class="bottom-date">
+                            <span class="qty-slot">12</span>Slots
+                        </div>
+                    </div>
+                </div>
+                <h3 class="select-appoint">Slots</h3>
+                <div class="slot-section">
+                    <div class="item">
+                        <span class="clc">10:00</span><span class="am-pm">AM</span>
+                    </div>
+                    <div class="item">
+                        <span class="clc">11:00</span><span class="am-pm">AM</span>
+                    </div>
+                    <div class="item">
+                        <span class="clc">12:00</span><span class="am-pm">PM</span>
+                    </div>
+                    <div class="item">
+                        <span class="clc">01:00</span><span class="am-pm">PM</span>
+                    </div>
+                    <div class="item">
+                        <span class="clc">02:00</span><span class="am-pm">PM</span>
+                    </div>
+                    <div class="item">
+                        <span class="clc">03:00</span><span class="am-pm">PM</span>
+                    </div>
+                    <div class="item">
+                        <span class="clc">04:00</span><span class="am-pm">PM</span>
+                    </div>
+                    <div class="item">
+                        <span class="clc">05:00</span><span class="am-pm">PM</span>
+                    </div>
+                    <div class="item">
+                        <span class="clc">06:00</span><span class="am-pm">PM</span>
+                    </div>
+                    <div class="item">
+                        <span class="clc">07:00</span><span class="am-pm">PM</span>
+                    </div>
+                </div><a href="#" class="pay-now-botton">Pay Now</a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="address-box">
+                <div class="image-box">
+                    <img src="./assets/images/Unzipgrowth logo.png" alt="">
+                </div>
+                <p>Strategic growth advisory firm, known for actionable market <br> intelligence &amp; branded thought
+                    leadership.</p>
+            </div>
+            <ul class="footer-unorder-list">
+                <li class=""><a class="foot-link" href="#">Advised industries</a></li>
+                <li class=""><a class="foot-link" href="#">Growth Retainership</a></li>
+            </ul>
+            <ul class="footer-unorder-list">
+                <li class=""><a class="foot-link" href="#">Join Us</a></li>
+                <li class=""><a class="foot-link" href="#">Journal</a></li>
+            </ul>
+            <ul class="footer-unorder-list">
+
+                <li class=""><a class="foot-link" href="./reach-us.html">Reach Us</a></li>
+                <li class=""><a class="foot-link" href="./Terms & Conditions.html">Privacy &amp;
+                        Terms</a></li>
+            </ul>
+            <!-- 		mobile view open -->
+            <ul class="mobile-unorder">
+                <li class="mobile-view-list"><a href="#">Advised Industries</a></li>
+                <li class="mobile-view-list"><a href="#">Growth Retainership</a></li>
+                <li class="mobile-view-list"><a href="#">Join Us</a></li>
+                <li class="mobile-view-list"><a href="#">Journal</a></li>
+                <li class="mobile-view-list"><a href="./reach-us.html">Reach Us</a></li>
+                <li class="mobile-view-list"><a href="./Terms & Conditions.html">Privacy &amp; Terms</a>
+                </li>
+            </ul>
+            <!-- 		mobile view end -->
+        </div>
+        <div class="foot-container">
+            <div class="all-rights">
+                <p>All right reserved | © 2021 Unzip Growth</p>
+            </div>
+            <div class="foot-icon">
+                <a class="foot-icon-link" href="https://www.instagram.com/unzipgrowth/"><img
+                        src="./assets/images/insta-icon.png" alt=""></a>
+                <a class="foot-icon-link" href="https://www.facebook.com/Unzipgrowth-110639224584174/"><img
+                        src="./assets/images/fb-icon.png" alt=""></a>
+                <a class="foot-icon-link" href="#"><img src="./assets/images/linkedin-icon.png" alt=""> </a>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="assets/js/migrate.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="assets/js/script.js"></script>
+    <script>
+
+
+        $(document).ready(function () {
+            $('section.solution-tab-section .container .items .item-box').click(function () {
+                $('.page-wrap .page-wrap-inner').addClass('page-wrap-inner-x');
+                $('.page-wrap .cart-summary').addClass('cart-summary-x');
+            });
+
+            $('.cart-summary a.cart-button').click(function () {
+                $('.page-wrap .page-wrap-inner').removeClass('page-wrap-inner-x');
+                $('.page-wrap .cart-summary').removeClass('cart-summary-x');
+            })
+            $('.cart-summary .cart-box .cart-right-close-btn').click(function () {
+                $('.cart-summary .cart-summary-item-list,.cart-summary .sub-total-section').toggle();
+                $(this).load('.cart-summary-x');
+            })
+
+
+
+
+
+            $('.appointment-slider').slick({
+                dots: false,
+                infinite: false,
+                speed: 300,
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1,
+                            infinite: true,
+                            dots: false
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 2
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }
+                ]
+            });
+            if ($(window).width() <= 767) {
+                $('#solution-tab-slide').owlCarousel({
+                    stagePadding: 0,
+                    loop: false,
+                    responsiveClass: true,
+                    dots: false,
+                    nav: false,
+                    autoHeight: true,
+                    items: 2
+                });
+            }
+
+        })
+    </script>
+    <script>
+        function modify_qty(val) {
+            var qty = document.getElementById('qty').value;
+            var new_qty = parseInt(qty, 10) + val;
+            if (new_qty < 0) {
+                new_qty = 0;
+            }
+            document.getElementById('qty').value = new_qty;
+            return new_qty;
+        }
+    </script>
+</body>
+
+</html>
